@@ -1,0 +1,59 @@
+@mixin btn {
+    padding: 12px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px; 
+    background-color: $main-color;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    color: $white;
+    border: solid transparent;
+    margin-left: auto;
+    transition: 0.3s;
+    &:hover{
+        background-color: rgba(186, 66, 112, 0.7);
+    }
+    &:active{
+        background-color: rgba(186, 66, 112, 0.5);
+        color: #BA4270;
+    }
+}
+@mixin befor {
+    display: inline-block;
+    background-color:#527695;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+@mixin ul__befor {
+    content: '';
+    position: absolute;
+    padding: 50px 50px;
+    background-repeat: no-repeat;
+    background-color: #36536B;
+    background-position: center;
+    border-radius: 50px; 
+    margin-top: -110px;  
+    margin-left: -50px;
+    cursor: pointer;
+    
+}
+@mixin text {
+    .simple_box__title{
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+    }
+    .simple_box__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+        cursor: pointer;
+    }
+}

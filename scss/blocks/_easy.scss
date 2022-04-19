@@ -1,0 +1,217 @@
+.easy{
+    margin-top: 150px;
+
+    &_box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left{
+        width: 500px;
+        height: 365px;
+        background-color: #1B262F;
+        box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+        border-radius: 8px;
+
+        .left__header{
+            width: 100%;
+            background: #2E3F4D;
+            border-radius: 8px 8px 0px 0px;
+            padding: 12px 20px;
+            margin-bottom: 33px;
+
+            .red{
+                @include befor;
+                background-color:#BA4270;
+            }
+            .rad{
+                @include befor;
+                margin-left: 10px;
+            }
+            .rod{
+                @include befor;
+                background-color:#36536B;
+                margin-left: 10px;
+            }
+            
+        }
+    }
+    &__text{
+        margin: 0 35px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;       
+        color: #FBFCFE;
+    }
+
+    &__right{
+        width: 400px;
+
+        .easy__title{
+            font-family: 'DM Serif Display', 'Roboto Mono';
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            letter-spacing: -0.369231px;        
+            color: #36536B;
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+
+        .easy__textt{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            color: #6C8294;
+            margin: 0;
+        }
+    }
+}
+@media only screen and (max-width: 970px) {
+    .easy{
+        
+
+        &_box{
+           flex-direction: column;
+        }
+        
+        &__left{
+            margin-bottom: 50px;
+        }
+
+        &__right{
+            text-align: center;
+            width: 600px;
+    
+        }
+    }
+}
+@media only screen and (max-width: 620px) {
+    .easy{
+
+        &__right{
+            text-align: center;
+            width: 500px;
+    
+        }
+    }
+}
+@media only screen and (max-width: 520px) {
+    .easy{
+        margin-top: 100px;
+
+        &__left{
+            margin-top: 20px;
+            width: 450px;
+            height: 300px;
+        }
+        &__text{
+            margin: 0 28px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;       
+        }
+
+        &__right{
+            text-align: center;
+            width: 400px;
+
+            .easy__title{
+                font-family: 'DM Serif Display', 'Roboto Mono';
+                font-weight: 400;
+                font-size: 38px;
+                line-height: 46px;
+                letter-spacing: -0.369231px;        
+                margin-bottom: 18px;
+            }
+    
+            .easy__textt{
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+            }
+    
+        }
+    }
+}
+@media only screen and (max-width: 470px) {
+    .easy{
+
+        &__left{
+            margin-top: 20px;
+            width: 380px;
+            height: 300px;
+
+            .left__header{
+                margin-bottom: 20px;
+            }
+        }
+        &__text{
+            margin: 0 28px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;       
+        }
+
+        &__right{
+            text-align: center;
+            width: 400px;
+
+            .easy__title{
+                font-size: 35px;
+                line-height: 38px;
+                letter-spacing: -0.369231px;        
+                margin-bottom: 18px;
+            }
+    
+            .easy__textt{
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+            }
+    
+        }
+    }
+}
+@media only screen and (max-width: 470px) {
+    .easy{
+        margin-top: 50px;
+
+        &_box{
+            padding: 10px;
+         }
+
+        &__left{
+            margin-top: 20px;
+            width: 270px;
+            height: 300px;
+            margin-bottom: 30px;
+
+            .left__header{
+                margin-bottom: 20px;
+            }
+        }
+        &__text{
+            font-weight: 400;
+            font-size: 12.5px;
+            line-height: 25px;       
+        }
+
+        &__right{
+            width: 270px;
+
+            .easy__title{
+                font-size: 33px;
+                line-height: 35px;      
+                margin-bottom: 18px;
+            }
+    
+            .easy__textt{
+                font-size: 12px;
+            }
+    
+        }
+    }
+}
+

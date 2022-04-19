@@ -64,6 +64,14 @@ footer{
         .fotter{
             flex-direction: column;
 
+            &__list{
+                flex-direction: column;
+
+                .item__link{
+                    padding: 20px 0;
+                }
+            }
+
             .fotter__logo{
                 margin-bottom: 30px;
             }
@@ -75,6 +83,9 @@ footer{
             .fotter__reight{
                 margin: 0 auto;
                 margin-top: 20px;
+            }
+            .fotter__logo{
+                margin-bottom: -5px;
             }
         }
 
